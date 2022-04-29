@@ -7,13 +7,13 @@
 可以去这里下：https://github.com/Unity-Technologies/VolumetricLighting
 
 【AreaLightLUT.GGX.cs】
-// 【LUT 文本结构】
-// s_LUTTransformInv_GGX  64 * 64 * 3 * 3
-// s_LUTAmplitude_GGX  64 * 64
-// s_LUTFresnel_GGX  64 * 64
+* 【LUT 文本结构】
+* s_LUTTransformInv_GGX  64 * 64 * 3 * 3
+* s_LUTAmplitude_GGX  64 * 64
+* s_LUTFresnel_GGX  64 * 64
 
 【AreaLightLUT.DisneyDiffuse.cs】
-/ 【LUT 文本结构】
-// s_LUTTransformInv_DisneyDiffuse 64 * 64 * 3 * 3
-// s_LUTAmplitude_DisneyDiffuse 64 * 64
-// 相比GGX，Diffuse没有菲涅尔
+* 【LUT 文本结构】
+* s_LUTTransformInv_DisneyDiffuse 64 * 64 * 3 * 3
+* s_LUTAmplitude_DisneyDiffuse 64 * 64
+* 相比GGX，Diffuse没有菲涅尔
